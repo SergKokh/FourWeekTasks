@@ -21,4 +21,8 @@ public class HomePage extends BasePage{
     public WebElement catalogBtnVisibile() {
         return driver.findElement(By.cssSelector("[id=fat-menu]"));
     }
+
+    public WebElement clickCartBtn() {
+        return driver.findElement(By.xpath("//rz-cart[@class='header-actions__component']//button[@type='button']//*[name()='svg']"));
+    }
 }
