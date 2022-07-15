@@ -21,19 +21,16 @@ public class TestInit {
             homePage.openRozetka();
         }
 
-
-
-//    @AfterMethod
-//    public void closeBrowser(){
-//        driver.quit();
-//    }
+        @AfterMethod
+    public void closeBrowser(){
+        driver.quit();
+    }
 
     public void sleep(int seconds) {
         try {
             Thread.sleep(seconds * 1000);
         } catch (InterruptedException e) {
             e.printStackTrace();
-
         }
     }
     public void driveMouse() {
