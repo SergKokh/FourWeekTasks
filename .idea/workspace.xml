@@ -6,6 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="b9fdfabe-00fd-4099-9992-61ebde10f830" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/TestsPageObjectCSS/Page/HomePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/TestsPageObjectCSS/Page/HomePage.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -20,6 +21,11 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="master" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="MarkdownSettingsMigration">
@@ -47,7 +53,7 @@
       <recent name="ExceptionsTests" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.CheckHomePageElements.checkModalContentCart">
+  <component name="RunManager" selected="TestNG.CheckSignInPage.checkOpenSignInField">
     <configuration name="RunTimeException" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="ExceptionsTests.RunTimeException" />
       <module name="FourWeekTasks" />
@@ -115,17 +121,17 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CheckedException1.zxc" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="CheckSignInPage.checkOpenSignInField" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="FourWeekTasks" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ExceptionsTests.*" />
+          <option name="PATTERN" value="TestsPageObjectCSS.Tests.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="ExceptionsTests" />
-      <option name="MAIN_CLASS_NAME" value="ExceptionsTests.CheckedException1" />
-      <option name="METHOD_NAME" value="zxc" />
+      <option name="PACKAGE_NAME" value="TestsPageObjectCSS.Tests" />
+      <option name="MAIN_CLASS_NAME" value="TestsPageObjectCSS.Tests.CheckSignInPage" />
+      <option name="METHOD_NAME" value="checkOpenSignInField" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -135,11 +141,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.CheckSignInPage.checkOpenSignInField" />
+        <item itemvalue="TestNG.CheckHomePageElements.checkMenuNout" />
         <item itemvalue="TestNG.CheckHomePageElements.checkModalContentCart" />
         <item itemvalue="TestNG.CheckHomePageElements.checkBannerOnPage" />
-        <item itemvalue="TestNG.CheckHomePageElements.checkMenuNout" />
         <item itemvalue="Application.RunTimeException" />
-        <item itemvalue="TestNG.CheckedException1.zxc" />
       </list>
     </recent_temporary>
   </component>
@@ -153,5 +159,16 @@
       <updated>1657529179160</updated>
     </task>
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
 </project>
