@@ -13,6 +13,7 @@ public class CheckHomePageElements extends TestInit{
         HomePage homePage = new HomePage(driver);
         SmartTvAndElektronicsPage smartTvAndElektronics = new  SmartTvAndElektronicsPage(driver);
         homePage.checkMenu().get(1).click();
+        sleep(2);
         Assert.assertTrue(smartTvAndElektronics.bannerCategoryVisibile().isDisplayed());
 
     }
